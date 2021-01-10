@@ -1,0 +1,29 @@
+#start {
+  background-image: url(/img/bg-pattern.png),
+    -moz-linear-gradient(left, #da2431, #7a4397);
+  background-image: url(/img/bg-pattern.png),
+    -webkit-linear-gradient(left, #da2431, #7a4397);
+}
+#download {
+  background-color: #fecc51;
+}
+#features {
+  background-color: #fecc51;
+}
+#start-again {
+  background-image: url(/img/bg-cta.jpg);
+  background-size: cover;
+  height: 400px;
+}
+#social-media {
+  background-color: #fcc949;
+}
+
+.circle {
+  display: inline-block;
+  color: #fcc949;
+
+  padding: 8px;
+  background-color: #000;
+  border-radius: 50%;
+}
