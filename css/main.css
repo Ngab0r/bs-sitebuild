@@ -56,7 +56,7 @@ footer a {
 #start-again {
   background-image: url(/img/bg-cta.jpg);
   background-size: cover;
-  height: 400px;
+  height: 800px;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
 }
 #social-media {
