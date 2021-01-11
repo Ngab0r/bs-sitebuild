@@ -1,4 +1,4 @@
-$(document).on('click', 'a', function (event) {
+$(document).on('click', '.nav-link', function (event) {
 
     // Prevent default events
     event.preventDefault();
