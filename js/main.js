@@ -12,8 +12,8 @@ $(document).on('click', '.nav-link', function (event) {
 
 $(window).scroll(function () {
 
-    var a = 1;
-    var pos = $(window).scrollTop();
+    let a = 1;
+    let pos = $(window).scrollTop();
     if (pos > a) {
         $(".navbar").css({
             background: '#fff'
