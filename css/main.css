@@ -127,10 +127,12 @@ button {
 .navbar-light .navbar-brand:hover {
   color: #fff;
 }
+
 .navbar {
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 100;
+  background: transparent;
 }

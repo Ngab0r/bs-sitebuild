@@ -9,3 +9,19 @@ $(document).on('click', '.nav-link', function (event) {
     }, 300);
 
 });
+
+$(window).scroll(function () {
+
+    var a = 1;
+    var pos = $(window).scrollTop();
+    if (pos > a) {
+        $(".navbar").css({
+            background: '#fff'
+        });
+    }
+    else {
+        $(".navbar").css({
+            background: 'transparent',
+        });
+    }
+});
