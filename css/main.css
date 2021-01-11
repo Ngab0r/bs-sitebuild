@@ -109,6 +109,11 @@ button:hover {
   border-color: #fdcc52;
 }
 
+.modal-footer button {
+  border-color: grey;
+  color: black;
+}
+
 .fab.fa-twitter {
   background-color: #1da1f3;
 }
