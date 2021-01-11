@@ -1,3 +1,24 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Catamaran, Helvetica, Arial, sans-serif;
+}
+button,
+nav {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+.blockquote,
+.blockquote-footer {
+  font-family: Muli, Helvetica, Arial, sans-serif;
+}
+
+footer {
+  font-family: Muli, Helvetica, Arial, sans-serif;
+}
+
 #start {
   background-image: url(/img/bg-pattern.png),
     -moz-linear-gradient(left, #da2431, #7a4397);
@@ -8,7 +29,7 @@
   background-color: #fecc51;
 }
 #features {
-  background-color: #fecc51;
+  background-color: #fff;
 }
 #start-again {
   background-image: url(/img/bg-cta.jpg);
@@ -26,4 +47,16 @@
   padding: 8px;
   background-color: #000;
   border-radius: 50%;
+}
+
+.feature-icon {
+  font-size: 8rem;
+  color: #a9336d;
+  border-top: 1px solid #a9336d;
+  border-bottom: 1px solid #a9336d;
+  line-height: 0;
+}
+
+.blockquote-footer::before {
+  display: none;
 }
