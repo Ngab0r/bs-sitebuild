@@ -60,3 +60,13 @@ footer {
 .blockquote-footer::before {
   display: none;
 }
+
+button {
+  background-color: transparent;
+  border-radius: 40px;
+  border: 1px solid;
+  border-color: #fff;
+  color: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
