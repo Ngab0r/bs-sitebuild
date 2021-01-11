@@ -62,10 +62,9 @@ footer a {
 .circle {
   display: inline-block;
   color: #fcc949;
-
-  padding: 8px;
+  padding: 10px;
   background-color: #000;
-  border-radius: 50%;
+  border-radius: 100px;
 }
 
 .feature-icon {
@@ -98,9 +97,13 @@ button {
 .fab.fa-twitter {
   background-color: #1da1f3;
 }
-.fab.fa-facebook {
-  color: #3b5999;
+.fab.fa-facebook-f {
+  background-color: #3b5999;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
-.fab.fa-google-plus {
-  color: #dd4c39;
+.fab.fa-google-plus-g {
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+  background-color: #dd4c39;
 }
