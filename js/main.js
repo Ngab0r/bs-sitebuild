@@ -22,3 +22,5 @@ $(window).scroll(function () {
         });
     }
 });
+
+$('[data-toggle="tooltip"]').tooltip();
