@@ -183,12 +183,73 @@
             </div>
         </section>
 
+        <div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="privacyModalLabel">Privacy</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, repellat? Officiis dolorem
+                        totam eaque cumque aut nulla perspiciatis sapiente quis ut odit voluptas a nostrum quae esse,
+                        aliquid hic quas.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="termsModalLabel">Terms</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, repellat? Officiis dolorem
+                        totam eaque cumque aut nulla perspiciatis sapiente quis ut odit voluptas a nostrum quae esse,
+                        aliquid hic quas.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="faqModal" tabindex="-1" aria-labelledby="faqModalLabel" FAQ-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="faqModalLabel">FAQ</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, repellat? Officiis dolorem
+                        totam eaque cumque aut nulla perspiciatis sapiente quis ut odit voluptas a nostrum quae esse,
+                        aliquid hic quas.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <footer class="text-center py-5">
             <p>© Your Website 2018. All Rights Reserved.
             </p>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">FAQ</a>
+            <a href="#" data-toggle="modal" data-target="#privacyModal">Privacy</a>
+            <a href="#" data-toggle="modal" data-target="#termsModal">Terms</a>
+            <a href="#" data-toggle="modal" data-target="#faqModal">FAQ</a>
         </footer>
     </main>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
