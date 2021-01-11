@@ -6,6 +6,6 @@ $(document).on('click', 'a', function (event) {
     // Animate the body (html page) to scroll to the referring element 
     $('html, body').animate({
         scrollTop: $($.attr(this, 'href')).offset().top
-    }, 1000);
+    }, 300);
 
 });
